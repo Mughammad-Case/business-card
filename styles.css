@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 15px;
-    gap: 15px;
+    gap: 30px;
 }
 
 .socials a {
@@ -31,4 +31,10 @@ body {
     color: #1a1a40;
     font-size: small;
     text-transform: uppercase;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    fill: #1a1a40;
 }
