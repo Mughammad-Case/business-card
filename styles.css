@@ -25,3 +25,10 @@ body {
     margin-top: 15px;
     gap: 15px;
 }
+
+.socials a {
+    text-decoration: none;
+    color: #1a1a40;
+    font-size: small;
+    text-transform: uppercase;
+}
