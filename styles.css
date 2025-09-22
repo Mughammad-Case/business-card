@@ -1,6 +1,6 @@
 body {
     margin: 20px;
-    color: #2b2839;
+    color: #CCD0CF;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -15,8 +15,8 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background-color: #ddebf8;
-    border-bottom: 10px solid #d8cefe;
+    background-color: #253745;
+    border-bottom: 10px solid #4A5C6A;
 }
 
 .socials {
@@ -28,7 +28,7 @@ body {
 
 .socials a {
     text-decoration: none;
-    color: #1a1a40;
+    color: #CCD0CF;
     font-size: small;
     text-transform: uppercase;
 }
@@ -36,5 +36,5 @@ body {
 .icon {
     width: 28px;
     height: 28px;
-    fill: #1a1a40;
+    fill: #CCD0CF;
 }
