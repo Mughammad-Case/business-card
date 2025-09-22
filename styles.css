@@ -18,3 +18,10 @@ body {
     background-color: #ddebf8;
     border-bottom: 10px solid #d8cefe;
 }
+
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 15px;
+}
