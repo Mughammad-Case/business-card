@@ -18,14 +18,35 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
     background-color: #253745;
-    border-bottom: 10px solid #4A5C6A;
+    overflow: visible;
+    position: relative;
 }
 
 .card:hover {
     transform: scale(1.02);
-        transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.skills {
+    background-color: #4A5C6A;
+    width: 100%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 15px;
+    text-align: center;
+    bottom: -25px;
+    position: absolute;
+}
+
+.skills p {
+    margin: 0;
+    font-weight: lighter;
+    font-size: medium;
+    letter-spacing: 1px;
 }
 
 .socials {
