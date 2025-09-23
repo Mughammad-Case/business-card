@@ -19,6 +19,7 @@ body {
     flex-direction: column;
     text-align: center;
     background-color: #253745;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     overflow: hidden;
     position: relative;
     max-height: 180px;
