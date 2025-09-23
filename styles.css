@@ -8,39 +8,52 @@ body {
     align-items: center;
 }
 
-.avatar {
-    width: 150px;
-}
-
 .card {
     width: 400px;
     margin: auto;
     padding: 20px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    flex-direction: column;
     text-align: center;
     background-color: #253745;
-    overflow: visible;
+    overflow: hidden;
     position: relative;
+    max-height: 250px;
+    transition: max-height 0.4s ease; transform: 0.4s ease;
 }
 
 .card:hover {
     transform: scale(1.02);
-    transition: 0.4s ease;
+    max-height: 320px;
 }
+
+.card-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.avatar {
+    width: 150px;
+}
+    
 
 .skills {
     background-color: #4A5C6A;
     width: 100%;
     padding: 10px 0;
-    font-weight: bold;
-    font-size: medium;
-    margin-top: 15px;
     text-align: center;
-    bottom: -25px;
-    position: absolute;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
+
+.card:hover .skills {
+    opacity: 1;
+    transform: translateY(0);
+}
+    
 
 .skills p {
     margin: 0;
