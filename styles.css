@@ -18,12 +18,13 @@ body {
     background-color: #253745;
     overflow: hidden;
     position: relative;
-    max-height: 250px;
+    max-height: 180px;
+    transition: max-height 1s ease, transform 1s ease;
 }
 
 .card:hover {
     transform: scale(1.02);
-    transition: 0.4s ease;
+    max-height: 320px;
 }
 
 .card-content {
@@ -45,15 +46,14 @@ body {
     text-align: center;
     margin-top: 10px;
     opacity: 0;
-    transform: translateY(0);
-    transform-origin: top;
-    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1),
-    opacity 0.5s ease;
+    transform: translateY(20px);
+    transition: transform 0.8s ease, opacity 0.7s ease;
+
 }
 
 .card:hover .skills {
     opacity: 1;
-    transform: scaleY(1);
+    transform: translateY(0);
 }
     
 
