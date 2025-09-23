@@ -49,6 +49,8 @@ body {
     margin-top: 10px;
     border-top: 1px solid #CCD0CF;
     border-bottom: 2px solid #4A5C6A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     opacity: 0;
     transform: translateY(20px);
     transition: transform 0.8s ease, opacity 0.7s ease;
